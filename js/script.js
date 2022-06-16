@@ -2,7 +2,7 @@ const overview = document.querySelector(".overview");
 const username = "redrambles";
 
 const gitUserInfo = async function () {
-  const userInfo = await fetch(`https://api.github.com/users/${username}`);
+  const userInfo = await fetch(`https://api.github.com/users/${tdw1186}`);
   const data = await userInfo.json();
   displayUserInfo(data);
 };
