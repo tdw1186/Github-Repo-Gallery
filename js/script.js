@@ -1,8 +1,8 @@
 const overview = document.querySelector(".overview");
-const username = "redrambles";
+const username = "tdw1186";
 
 const gitUserInfo = async function () {
-  const userInfo = await fetch(`https://api.github.com/users/${tdw1186}`);
+  const userInfo = await fetch(`https://api.github.com/users/${username}`);
   const data = await userInfo.json();
   displayUserInfo(data);
 };
